@@ -1,0 +1,287 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;0,800;1,500;1,600;1,700;1,800&display=swap');
+:root {
+  --accent: #174180;
+  --accent-light: #19df19;
+  --pure-wite: #fff;
+}
+
+html{
+box-sizing: border-box;
+scroll-behavior: smooth;
+ height:100%;
+}
+
+*
+*
+*:before,
+*:after,
+box-sizing:inherit
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+ color: var(--accent-light);
+  position: absolute;
+}
+
+
+.bg {
+  animation:slide 2s ease-in-out infinite alternate;
+  background-image: linear-gradient(-60deg, tan, 50%, rgb(229, 235, 224) 50%);
+  bottom:0;
+  left: -50%;
+  opacity:.5;
+  position:fixed;
+  right: -50%;
+  top:0;
+  z-index:-1;
+}
+
+.bg2 {
+  animation-direction:alternate-reverse;
+  animation-duration:2s;
+}
+
+.bg3 {
+  animation-duration:4s;
+}
+
+.content {
+  border-radius:.25em;
+  box-shadow:0 0 .25em rgba(255, 255, 255, 0.25);
+  box-sizing:border-box;
+  left: 50%;
+  padding:10vmin;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-25%);
+  }
+  100% {
+    transform:translateX(25%);
+  }
+}
+
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+/*border: 1px solid red;*/
+}
+
+
+.section-title{
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent-light)
+}
+
+section{ 
+  padding: 60px 0;}
+
+  .logo{
+margin-right: 100px;
+border-radius: 5px;
+background-color:  #9beff1;
+font-size: large;
+  }
+
+.header-nav {background-color: #ffffff;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: auto;
+}
+
+.header a {	
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu{
+  margin: 0px;
+  padding: 0px;
+   
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: auto;
+color:var(--accent-light);
+}
+
+.menu-item {
+text-transform: uppercase;
+padding: 0px 15px;
+color:var(--accent-light);list-style: none;
+}
+
+.intro{
+  padding: 60px 0;
+  
+}
+.fammily{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.fammily p{
+  width: 500px;
+  font-size:'Open Sans', sans-serif;
+}
+.intro-left{
+width: 30%;
+}
+
+.intro-img{
+  width: 240px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 18px rgba(1, 46, 179, 0.18);
+}
+
+.intro-right h1,
+.intro-right h3{
+  margin: 0 0 10px;
+  line-height: 20px;
+  margin: 0 0 10px;
+}
+
+.intro-right{
+width: 60%;
+}
+
+.contacts ul{
+display: flex;
+align-items: center;
+justify-content: space-around;
+text-align: center;
+gap: 10px;
+flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+padding: 0;
+}
+
+.skills{
+  padding: 0;
+  color: var(--pure-white);
+}
+
+.skills ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 3px;
+  
+  text-align: center;
+}
+
+.skills li{
+padding: 10px 15px;
+border-radius: 3px;
+}
+
+.code-example p{
+text-align: center;
+font-style: italic;
+border-radius: 5px #718791;
+justify-content: between;
+align-content: center;
+}
+
+.code-example {
+  font-style: none;
+  line-height: 20px;
+  width: 30px;
+  
+}
+.bold{
+  color: rgb(134, 123, 17);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+.font-variant{
+  font-variant: small-caps;
+  font-size: 20px;
+}
+pre{
+ background-color: rgb(46, 16, 180);
+text-align: center;
+border: 2px solid #292727;
+width: 600px;
+height: 200 px;
+padding: 0px;
+margin-left: auto;
+margin-right: auto;
+box-shadow: 10px 19px 5px 15px rgb(192 194 101);
+ 
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #fdd9d9;
+	border-collapse: collapse; 
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;}
+.clospan{
+	width: 100%;
+	margin-bottom: 20px;
+  text-align: center;
+}
+
+.languages ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  gap: 20px;
+  border-radius: 3px;
+  flex-direction: column;
+  text-align: center;
+}
+.languages li{
+  padding: 0;
+border-radius: 3px;
+}
+
+ .education li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: rgb(23, 24, 27);
+ }
+
+ .certificate ul{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  flex-direction: column;
+}
+
+footer{
+  align-items: flex-end;
+}
