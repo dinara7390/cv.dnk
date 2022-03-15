@@ -4,108 +4,117 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href=".js.js">
   <title>Dinara Kazyeva Nasarkojoevna</title>
 </head>
 <body>
-  <header>
-      <div class="container">
+  <header class="header">
+    <div class="container">
       <nav class="header-nav">
-         <a id="logo" class="logo" href="#home"> <img src="photo/iconmonstr-cv-2.png" alt="cv" class="img-cv"> DKN</a>
-        <ul class="menu">
-          <li class="menu-item"><a href="#experience">Experience</a></li> 
-          <li class="menu-item">
-            <a href="#skills">Skills</a>
+         
+        <button class="menu-toggle">
+         <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M3 24h19v-23h-1v22h-18v1zm17-24h-18v22h18v-22zm-1 1h-16v20h16v-20zm-2 16h-12v1h12v-1zm0-3h-12v1h12v-1zm0-3h-12v1h12v-1zm-7.348-3.863l.948.3c-.145.529-.387.922-.725 1.178-.338.257-.767.385-1.287.385-.643 0-1.171-.22-1.585-.659-.414-.439-.621-1.04-.621-1.802 0-.806.208-1.432.624-1.878.416-.446.963-.669 1.642-.669.592 0 1.073.175 1.443.525.221.207.386.505.496.892l-.968.231c-.057-.251-.177-.449-.358-.594-.182-.146-.403-.218-.663-.218-.359 0-.65.129-.874.386-.223.258-.335.675-.335 1.252 0 .613.11 1.049.331 1.308.22.26.506.39.858.39.26 0 .484-.082.671-.248.187-.165.322-.425.403-.779zm3.023 1.78l-1.731-4.842h1.06l1.226 3.584 1.186-3.584h1.037l-1.734 4.842h-1.044z"/></svg>
+         </button>
+          <a href="#" class="toggle">
+            <span class="fa fa-bars" aria-hidden="true"></span>
+          </a>
+        <ul class="header-menu">
+          <li class="header-menu-item">
+            <a href="#experience" class="header-menu-link">Experience</a></li> 
+          <li class="header-menu-item">
+            <a href="#skills" class="header-menu-link">Skills</a>
           </li>
-         <li class="menu-item">
-            <a href="#code-example">Code Example</a>
+         <li class="header-menu-item">
+            <a href="#code-example" class="header-menu-link">Code Example</a>
           </li>
-          <li class="menu-item">
-            <a  href="#portfolio">Portfolio</a>
+          <li class="header-menu-item">
+            <a  href="#portfolio" class="header-menu-link">Portfolio</a>
           </li>
-          <li class="menu-item">
-            <a  href="#languages">Languages</a>
+          <li class="header-menu-item">
+            <a  href="#languages" class="header-menu-link">Languages</a>
           </li>
-          <li class="menu-item">
-            <a href="#education">Education</a>
+          <li class="header-menu-item">
+            <a href="#education" class="header-menu-link">Education</a>
           </li>
-          <li class="menu-item">
-            <a href="#certificate">Certificate</a>
+          <li class="header-menu-item">
+            <a href="#certificate" class="header-menu-link" >Certificate</a>
           </li>
         </ul>
       </nav>
     </div>
-    </header>
+  </header>
 
 <div class="bg"></div>
 <div class="bg bg2"></div>
 <div class="bg bg3"></div>
 <div class="content"></div>
  
-<main>
+    <!-- <div class="wrapper"> -->
 
-   <section class="intro">
+    <main>
+      
+    <section class="intro">
       <div class="container">
-        <div class="fammily">
-          <div class=" intro-left"> <img class="intro-img" src="photo/AVATAR.jpeg" alt="Dinara's avatar"></div>
-        
+        <div class="family">
+          <div class=" intro-left"> 
+            <img class="intro-img" src="photo/AVATAR.jpeg" alt="Dinara's avatar"></div>      
         <div class="intro-right">
             <h1>Dinara Kazyeva Nasarkojoevna</h1>
             <h3>Junior Developer</h3>
             <p class="intro-p">I try to get all the good skills out of life. I really want to become a successful programmer of my time. There is a lot of good in this wonderful life, why not want to get it all. And I'm sure, I can do it...</p>
           </div>  
-          </div>
+        </div>
       </div>
-      
     </section>
 
-    <section  class="contacts">
-      <div class="container">
-
-      <ul>
-        <li>
-         <img class="img-location" src="photo/iconmonstr-location-28.png" alt="location">
-         <a href="https://www.google.com/maps/place/%D0%9A%D0%B0%D1%80%D0%B0-%D0%91%D0%B0%D0%BB%D1%82%D0%B0/@42.8230308,73.7830584,12z/data=!3m1!4b1!4m5!3m4!1s0x389f38446178076b:0x8b950649afc9a1dc!8m2!3d42.8212455!4d73.8536683">Kara-Balta, Kyrgyzstan</a>
-        </li>
-        <li>
-          <img class="img-phone" src="photo/iconmonstr-smartphone-9.png" alt="phone">
-          <a href="tel:+996706144308">+996706144308</a>
-        </li>
-        <li>
-          <img class="img-email" src="photo/iconmonstr-paper-plane-5.png" alt="email">
-          <a href="mailto:dinara.kazyeva.alt@gmail.com">dinara.kazyeva.alt@gmail.com</a>
-        </li>
-      </ul>
-    </div>
-    </section>
-
-       <section id="skills" class="skills section">
-        <div class="container">
+    <section id="skills" class="skills section">
+       <div class="container">
           <h2 class="section-title">Skills</h2>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JS</li>
+            <li>Figma</li>
+            <li>Sass</li>
+            <li>Github</li>
+            <li>Canva</li>
           </ul>
         </div>
       </section>
   
     <section id="code-example" class="code-example section">
-        <div class="container">
+        <div class="container code">
           <h2 class="section-title">Code Example</h2>
-           <pre class="code">
+           <pre>
             <code >
                &lt;section&gt;
               &lt;h2 id="t4"&gt;Education&lt;h2&gt;
               &lt;lu&gt;
-                &lt;li&gt;
-              &lt;Bishkek Humanitarian University named after K. Karasaev
-              &lt;strong&gt;,Faculty of Oriental Introduction
-              and International Relations
               &lt;li&gt;
-              &lt;lu&gt;
-              &lt;section&gt;
+              &lt;Bishkek Humanitarian University named after K. Karasaev
+          &lt;strong&gt;,Faculty of Oriental Introduction
+          and International Relations
+            &lt;li&gt;
+            &lt;lu&gt;
+            &lt;section&gt;
             </code>
           </pre>
         </div>
@@ -119,7 +128,6 @@
           <img class="portfolio-img" src="photo/html.JPG" alt="html">
           <h3>Basic html</h3>
           <a href="https://ru.code-basics.com/languages/html" target="_blank">Viwe test</a>
-          
         </li>
         <li>
           <img class="portfolio-img" src="photo/css.JPG" alt="basic CSS" >
@@ -168,11 +176,11 @@
         <ul>
           <li>
 
-            <b>English</b> &mdash; Elementary
+            <b>English</b>  Elementary
           </li>
-          <li><b>Russian</b> &mdash; Fluent</li>
-          <li><b>Kyrgyz</b> &mdash; Native</li>
-          <li><b>Turkish</b>&mdash; Fluent </li>
+          <li><b>Russian</b>  Fluent</li>
+          <li><b>Kyrgyz</b>  Native</li>
+          <li><b>Turkish</b> Fluent </li>
         </ul>
       </div>
       </section>
@@ -203,11 +211,45 @@
           <li> Diving/ 20meters</li>
         </ul>
         </div>
-      </section>
+      </section> 
+  </main>
+  <footer>
+  <aside>
+<div class="side-panel">
+    <label class="side-button-2" for="side-checkbox"></label>   
+    <button class="menu-toggle">
+      <a href="https://www.google.com/maps/place/%D0%9A%D0%B0%D1%80%D0%B0-%D0%91%D0%B0%D0%BB%D1%82%D0%B0/@42.8230308,73.7830584,12z/data=!3m1!4b1!4m5!3m4!1s0x389f38446178076b:0x8b950649afc9a1dc!8m2!3d42.8212455!4d73.8536683">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M18.5 2c1.309 0 2.5 1.16 2.5 2.434 0 1.358-1.044 3.303-2.5 5.723-1.456-2.42-2.5-4.365-2.5-5.723 0-1.274 1.191-2.434 2.5-2.434zm0-2c-2.361 0-4.5 1.985-4.5 4.434 0 2.45 1.951 5.373 4.5 9.566 2.549-4.193 4.5-7.116 4.5-9.566 0-2.449-2.139-4.434-4.5-4.434zm0 6c-.828 0-1.5-.672-1.5-1.5s.672-1.5 1.5-1.5 1.5.672 1.5 1.5-.672 1.5-1.5 1.5zm-7.26 1.237c-.004-.009-.289-.017-.24-.078l.137-.085c.012-.077.072-.162-.008-.304l.047-.125-.1.029s.141-.606.33-.332l-.08.093c.123.122.156.426.195.623.115.06.295.071.088.175.107-.018-.561.286-.648.161-.065-.076.289-.127.279-.157zm-.715-.159c-.078.078.002.128.082.094.113-.05.268-.048.283-.202l.074-.091c.031-.049-.062-.126-.102-.135-.059-.012-.1.064-.137.095l-.066.017-.062.08.008.044-.08.098zm7 9.167l-.734-1.206-.723-1.186c-.73-1.194-1.389-2.276-1.961-3.296l-.07.067c-.377.156-.943-.509-1.34-.531.193.03.018-.49.018-.524-.152-.189-1.123.021-1.377.055-.479.063-.979.057-1.346.355-.258.21-.262.551-.525.716-.17.106-.355.072-.502.209-.258.245-.553.607-.697.929-.061.135.078.458.043.632-.336 1.063.086 2.538 1.375 2.701.312.039.639.209.955.114.252-.076.475-.248.746-.268.377-.025.219.529.736.379.252-.074.365.172.365.359-.084.391-.268.609.088.883.242.188.443.456.486.78.027.182.197.494-.014.602-.15.075-.26.507-.258.649.031.165.365.481.467.621.145.2.039.436.158.663.121.232.236.41.322.645.111.324.959-.007 1.156-.006.674.004 1.014-.944 1.488-1.235.266-.165.191-.616.51-.848.295-.215.607-.344.635-.741.021-.344-.258-1.062-.104-1.353l.103-.165zm-7.302-7.76c.041.172-.119.645-.154.795-.031.138.443.226.416.295.004-.008.641-.22.705-.275l.143-.323c.121-.081.248-.146.385-.196l.164-.285c.055-.021.709-.123.756-.101.164.075.469.389.582.531l.041.032c-.326-.67-.59-1.314-.795-1.942l-.084.036c-.221 0-.527.251-.662.405-.096.104-.67.337-.732.33.33.035.314.276.287.482-.068.476-1.095.035-1.052.216zm10.904 5.049c-.277 4.807-4.252 8.623-9.129 8.623-2.604 0-4.951-1.086-6.619-2.83-.197-.208-.346-.7-.02-.9l.332-.085c.258-.22-.242-1.111-.045-1.254.617-.441.324-.982-.055-1.429-.16-.19-1.043-1.1-1.143-.937.074-.249-.16-.85-.301-1.087-.24-.398-.553-.643-.68-1.081-.047-.174-.047-.703-.151-.826-.041-.05-.359-.185-.348-.257.305-1.82 1.148-3.458 2.365-4.751l.819-.33c.516-.773.545-.173 1.008-.375.154 0 .332-.634.496-.734.289-.185.068-.185.016-.27-.113-.184 2.41-1.103 2.453-.938.033.14-1.25.809-1.109.788-.325.043-.387.627-.327.625.162-.005 1.182-.774 1.656-.61.467.161 1.301-.37 1.627-.64l.042-.039c.029-.761.195-1.494.48-2.172l-.494-.025c-6.074 0-11 4.925-11 11s4.926 11 11 11 11-4.925 11-11c0-.764-.078-1.509-.227-2.229-.49.864-1.043 1.779-1.646 2.763z"/></svg>
+         </a>
+    </bottom>
+    
+    <button class="menu-toggle">
+      <a href="tel:+996706144308">
+   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M14.89 23.654c-7.367 3.367-18.802-18.86-11.601-22.615l2.107-1.039 3.492 6.817-2.082 1.026c-2.189 1.174 2.37 10.08 4.609 8.994.091-.041 2.057-1.007 2.064-1.011l3.521 6.795c-.008.004-1.989.978-2.11 1.033zm-1.538-13.409l2.917.87c.223-.747.16-1.579-.24-2.317-.399-.739-1.062-1.247-1.808-1.469l-.869 2.916zm1.804-6.058c1.551.462 2.926 1.516 3.756 3.051.831 1.536.96 3.263.498 4.813l-1.795-.535c.325-1.091.233-2.306-.352-3.387-.583-1.081-1.551-1.822-2.643-2.146l.536-1.796zm.95-3.187c2.365.705 4.463 2.312 5.729 4.656 1.269 2.343 1.466 4.978.761 7.344l-1.84-.548c.564-1.895.406-4.006-.608-5.882-1.016-1.877-2.696-3.165-4.591-3.729l.549-1.841z"/></svg>
+       </a>
+    </bottom>
+    
+    <button class="menu-toggle">
+      <a href="mailto:dinara.kazyeva.alt@gmail.com">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.021 17.824c-3.907 0-6.021-2.438-6.021-5.586 0-3.363 2.381-6.062 6.638-6.062 3.107 0 5.362 2.019 5.362 4.801 0 4.356-5.165 5.506-4.906 3.021-.354.555-.927 1.177-2.026 1.177-1.257 0-2.04-.92-2.04-2.403 0-2.222 1.461-4.1 3.19-4.1.829 0 1.399.438 1.638 1.11l.232-.816h1.169c-.122.416-1.161 4.264-1.161 4.264-.323 1.333.675 1.356 1.562.648 1.665-1.29 1.75-4.664-.499-6.071-2.411-1.445-7.897-.551-7.897 4.347 0 2.806 1.976 4.691 4.914 4.691 1.719 0 2.771-.465 3.648-.974l.588.849c-.856.482-2.231 1.104-4.391 1.104zm-1.172-7.153c-.357.67-.588 1.538-.588 2.212 0 1.805 1.761 1.816 2.626.12.356-.697.586-1.586.586-2.265 0-1.458-1.748-1.717-2.624-.067z"/></svg>
+          </a>
+    </bottom>
 
-      <button onclick="topFunction()" id="myBtn" title="Перейти к началу">Вверх</button>
-   
-<footer>
+    <button class="menu-toggle">
+      <a href="https://www.instagram.com/dinara731990/">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z"/></svg>
+    </a>
+  </button>
+  <button class="menu-toggle">
+    <a href="https://github.com/dinara7390">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    </a>
+  </button>
+</div>
+</aside>
+</div>
+
+
    <div class="container">
       2022 Kazyeva Dinara
         <a href="https://linktr.ee/jyldyzacademy2020">Jyldyz Academy</a>
@@ -215,6 +257,10 @@
    </div>
 </footer>
 
-    </main>
+<button class="menu-toggle up">
+<div style="height:100%"></div>
+   <a href="#" title="Вернуться к началу страницы" class="topNubex">Вверх</a>
+</bottom>
+  
 </body>
 </html>
